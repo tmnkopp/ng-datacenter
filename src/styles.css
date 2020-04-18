@@ -1,1 +1,108 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, .card, .card-body {
+      padding-top: 15px;
+      padding-bottom: 20px;
+      background: #323232;
+      font-family: 'Roboto', monospace;
+      letter-spacing: 2px;
+      font-size: 15.5px;
+      color: #f1f1f1;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    } 
+    .table, body, td, tr {
+      color: #f1f1f1;
+    } 
+    .body-content {
+      padding-left: 15px;
+      padding-right: 15px;
+    } 
+    .dl-horizontal dt {
+      white-space: normal;
+    } 
+    a {
+      color: #ff4500;
+    }
+    
+      a:hover{
+        color: #323232;
+        background: #ff4500;
+      }
+    
+    input,
+    select,
+    textarea,
+    .form-control {
+      max-width: 100%;
+      border-radius: 0px;
+      margin-bottom: 1rem;
+      font-size: 1em;
+      width: 100%;
+      background: #6c6c6c;
+      color: #41FF00;
+      border: 0px;
+      padding: 1rem;
+    }
+      button, input[type*='button'] {
+        color: #ffcc00;
+      }
+      textarea.full {
+        height: 40vh;
+      }
+    
+      textarea[id*='Notes'] {
+        height: 150vh;
+      }
+    
+    .form-control, textarea {
+      background: #434343;
+      border: 0px solid #d3d3d3; 
+    } 
+      .form-control:focus { 
+        background-color: #343434;
+        border-color: #80bdff;
+      }
+    .btn, input[type='button'] {
+      background: transparent;
+      color: #ff4500;
+      border: 0px solid #ff4500;
+      border-top: 2px solid #ff4500;
+      border-right: 2px solid #ff4500;
+      max-width: 320px;
+      border-radius: 0px;
+      margin:0em  1em ;
+      display: inline-block;
+      font-size: .75em;
+      text-transform:uppercase;
+      width: auto;
+      padding: .75em 1.75em;
+      font-weight: normal;
+    } 
+    .nav li {
+      display: inline-block;
+      padding: 0em .25em;
+    }
+    .nav li a:before {
+      content: "-";
+      display: inline-block;
+      padding-left: 1px;
+    } 
+    .table th, .table td {
+      padding: 0.35rem;
+      vertical-align: top;
+      border-top: 1px solid #545454;
+    }
+    ol, ul {
+      margin: 0px;
+      padding:0px;
+    }
+    .panel {
+      background:#222;
+      color:#fff;
+    }
+    
